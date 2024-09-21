@@ -1,7 +1,8 @@
 # react-pdf-scrolling-pages
 
-Display all pages of a PDFs in your React app as easily as if they were images. Comes with built in 3d styling.
-Scroll up and down through ALL the pages using your mouse or keyboard.
+Easily scroll through the list of pages in a pdf using a mouse scroll or keyboard. Display your pdf as easily
+as if they were images. Comes with built-in 3d styling for quick setup. You can also do your own custom styling
+using a className and CSS.
 
 Uses [PDF.js](http://mozilla.github.io/pdf.js/).
 
@@ -9,9 +10,8 @@ Uses [PDF.js](http://mozilla.github.io/pdf.js/).
 
 [![NPM Version](https://img.shields.io/npm/v/react-pdf-scrolling-pages.svg?style=flat-square)](https://www.npmjs.com/package/react-pdf-scrolling-pages)
 [![NPM Downloads](https://img.shields.io/npm/dm/react-pdf-scrolling-pages.svg?style=flat-square)](https://www.npmjs.com/package/react-pdf-scrolling-pages)
-[![codecov](https://codecov.io/gh/pvanweel/react-pdf-scrolling-pages/branch/master/graph/badge.svg)](https://codecov.io/gh/pvanweel/react-pdf-scrolling-pages)
 
-# Demo
+# [Demo](https://react-app-all-pages-sample.onrender.com/)
 
 Demo can be found [here](https://react-app-all-pages-sample.onrender.com/).
 
