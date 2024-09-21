@@ -1,0 +1,25 @@
+{
+  "name": "react-pdf-scrolling-pages",
+  "version": "1.0.0",
+  "description": "react-pdf-scrolling-pages",
+  "type": "module",
+  "workspaces": [
+    "packages/*",
+    "test"
+  ],
+  "private": "true",
+  "scripts": {
+    "build": "yarn workspace react-pdf-scrolling-pages build",
+    "dev": "yarn workspace react-pdf watch & yarn workspace test dev",
+    "format": "yarn workspaces foreach --all run format",
+    "lint": "yarn workspaces foreach --all run lint",
+    "test": "yarn workspaces foreach --all run test",
+    "tsc": "yarn workspaces foreach --all run tsc",
+    "unit": "yarn workspaces foreach --all run unit",
+    "publish": "yarn publish ./packages/react-pdf-scrolling-pages --access public"
+  },
+  "resolutions": {
+    "pdfjs-dist": "patch:pdfjs-dist@npm:4.4.168#.yarn/patches/pdfjs-dist-npm-4.4.168-35a0e70ced.patch"
+  },
+  "packageManager": "yarn@1.22.22"
+}

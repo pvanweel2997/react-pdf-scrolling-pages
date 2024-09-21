@@ -1,0 +1,65 @@
+{
+  "name": "react-pdf-scrolling-pages",
+  "version": "1.0.0",
+  "description": "Simple React component to wrap up PDF.js. The easiest way to render all pages of a PDF in your React app.  Comes with default styling.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pvanweel2997/react-pdf-scrolling-pages.git"
+  },
+  "keywords": [
+    "react",
+    "pdf",
+    "all",
+    "pages",
+    "simple",
+    "styling",
+    "built-in styling"
+  ],
+  "author": "Patrick Van Weelden",
+  "license": "MIT",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "scripts": {
+    "build": "tsup src/index.tsx --dts --format esm,cjs",
+    "lint": "eslint"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "devDependencies": {
+    "@testing-library/react": "15.0.7",
+    "@types/jest": "29.5.12",
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "@vitejs/plugin-react": "4.3.0",
+    "jest-canvas-mock": "2.5.2",
+    "pdfjs-dist": "^4.6.82",
+    "tsup": "8.0.2",
+    "typescript": "5.4.5"
+  },
+  "peerDependencies": {
+    "pdfjs-dist": "^4.5.136",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "bundleDependencies": []
+}

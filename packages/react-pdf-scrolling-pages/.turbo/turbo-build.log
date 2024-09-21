@@ -1,0 +1,18 @@
+
+> @pvanweel2997/react-pdf-scrolling-pages@1.0.0 build C:\courses\react-pdf-scrolling-pages\packages\react-pdf-scrolling-pages-js
+> tsup src/index.tsx --dts --format esm,cjs
+
+[34mCLI[39m Building entry: src/index.tsx
+[34mCLI[39m Using tsconfig: tsconfig.json
+[34mCLI[39m tsup v8.0.2
+[34mCLI[39m Target: esnext
+[34mESM[39m Build start
+[34mCJS[39m Build start
+[32mCJS[39m [1mdist\index.cjs [22m[32m6.17 KB[39m
+[32mCJS[39m ⚡️ Build success in 290ms
+[32mESM[39m [1mdist\index.js [22m[32m4.41 KB[39m
+[32mESM[39m ⚡️ Build success in 291ms
+[34mDTS[39m Build start
+[32mDTS[39m ⚡️ Build success in 830ms
+[32mDTS[39m [1mdist\index.d.ts  [22m[32m889.00 B[39m
+[32mDTS[39m [1mdist\index.d.cts [22m[32m889.00 B[39m
